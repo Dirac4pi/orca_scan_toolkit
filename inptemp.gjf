@@ -1,0 +1,12 @@
+! libxc(wB97X-D3BJ) def2-TZVP def2/J RIJCOSX StrongSCF NoAutoStart MiniPrint NoPop
+%MAXCORE 2000
+%PAL NPROCS 64 END
+%MOINP "guess.gbw"
+%TDDFT
+       NRoots  8
+       TDA  False
+END
+%CPCM EPSILON      32.3
+      REFRAC       1.47
+END
+* XYZ -1 2
