@@ -23,3 +23,10 @@ produce **publishable-quality** images. Usage: place all the ORCA single-point
 excited state calculation output files into the `apesplot.py` directory，modify
 the scanning settings at the top of the `apesplot.py` (one can also add the
 diabatic states and excitation wavelength), then run `python apesplot.py`.<br>
+
+## reverse.py
+
+&nbsp;&nbsp;&nbsp;&nbsp;Sometimes it's necessary to perform a reverse scan and
+plot in the forward way. In this case, `reverse.py` should be called before
+plotting. Usage: place all the ORCA single-point excited state calculation
+output files into the `reverse.py` directory，then run `python reverse.py`.<br>
